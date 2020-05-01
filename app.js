@@ -53,6 +53,7 @@ const createFirstDiv = () => {
     users.forEach(user => {
         if (user.slot === 'first') {
             let userDiv = document.createElement('div');
+            userDiv.classList.add('userDiv');
             let userText = document.createElement('span');
             userText.innerHTML = user.name;
 
@@ -115,6 +116,7 @@ const createSecondDiv = () => {
     users.forEach(user => {
         if (user.slot === 'second') {
             let userDiv = document.createElement('div');
+            userDiv.classList.add('userDiv');
             let userText = document.createElement('span');
             userText.innerHTML = user.name;
 
@@ -163,6 +165,7 @@ const createThirdDiv = () => {
     users.forEach(user => {
         if (user.slot === 'third') {
             let userDiv = document.createElement('div');
+            userDiv.classList.add('userDiv');
             let userText = document.createElement('span');
             userText.innerHTML = user.name;
 

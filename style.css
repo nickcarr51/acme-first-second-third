@@ -32,7 +32,7 @@
     border: 3px solid #E27D60;
     border-radius: 10px;
     box-shadow: 5px 5px 5px #41b3a3;
-    transition: All 1s ease-in-out;
+    /* transition: All 1s ease-in-out; */
 }
 
 .secondDiv {
@@ -45,6 +45,10 @@
     border: 3px solid #E27D60;
     border-radius: 10px;
     box-shadow: 5px 5px 5px #41b3a3;
+    /* transition: All 1s ease-in-out; */
+}
+
+.userDiv {
     transition: All 1s ease-in-out;
 }
 
@@ -58,7 +62,7 @@
     border: 3px solid #E27D60;
     border-radius: 10px;
     box-shadow: 5px 5px 5px #41b3a3;
-    transition: All 1s ease-in-out;
+    /* transition: All 1s ease-in-out; */
 }
 
 .buttonDiv {
