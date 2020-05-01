@@ -32,6 +32,7 @@
     border: 3px solid #E27D60;
     border-radius: 10px;
     box-shadow: 5px 5px 5px #41b3a3;
+    transition: All 1s ease-in-out;
 }
 
 .secondDiv {
@@ -44,6 +45,7 @@
     border: 3px solid #E27D60;
     border-radius: 10px;
     box-shadow: 5px 5px 5px #41b3a3;
+    transition: All 1s ease-in-out;
 }
 
 .thirdDiv {
@@ -56,6 +58,7 @@
     border: 3px solid #E27D60;
     border-radius: 10px;
     box-shadow: 5px 5px 5px #41b3a3;
+    transition: All 1s ease-in-out;
 }
 
 .buttonDiv {
@@ -63,6 +66,7 @@
     justify-content: center;
     margin-top: 10px;
     align-items: center;
+    transition: All 1s ease-in-out;
 }
 
 .button {
@@ -87,6 +91,7 @@
     border: none;
     border-radius: 15px;
     box-shadow: 5px 5px 5px #41b3a3;
+    transform: scale(1.1);
 }
 
 .customerDiv {
@@ -103,7 +108,6 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     box-shadow: 3px 3px 3px #41b3a3;
     cursor: pointer;
-
 }   
 
 .customerDiv:hover {
@@ -120,6 +124,7 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     box-shadow: 5px 5px 5px #41b3a3;
     cursor: pointer;
+    transform: scale(1.1);
 }   
 
 .selected {
@@ -152,4 +157,5 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     box-shadow: 5px 5px 5px #41b3a3;
     cursor: pointer;
+    transform: scale(1.1);
 }   
